@@ -4,9 +4,9 @@
   "description": "LDIF (LDAP Directory Interchange Format) tools for Node",
   "main": "index.js",
   "devDependencies": {
-    "chai": "^3.4.0",
+    "chai": "^4.3.7",
     "mocha": "^10.2.0",
-    "pegjs": "^0.9.0"
+    "pegjs": "^0.10.0"
   },
   "scripts": {
     "make": "node_modules/.bin/pegjs lib/ldif.pegjs lib/parser.js",
